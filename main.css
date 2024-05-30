@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    color: #333; /* Color de texto predeterminado */
+}
+
+/* Estilos para el modo claro */
+#campo-batalla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #f0f0f0; /* Color de fondo para el modo claro */
+}
+
+.caja-batala {
+    margin: 25px;
+}
+
+.text-mensajes {
+    font-size: 45px;
+}
+
+.img-batalla {
+    border-radius: 50%;
+}
+
+.btn-ataques {
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.btn-ataques:hover {
+    border: 2px solid rgb(133, 128, 128);
+    cursor: pointer;
+    margin: 18px;
+}
+
+/* Estilos para el modo oscuro */
+body.modo-oscuro {
+    background-color: #000000; /* Color de fondo para el modo oscuro */
+    color: #774848; /* Color de texto para el modo oscuro */
+}
+
+#campo-batalla.modo-oscuro {
+    border-color: rgb(0, 0, 0); /* Color de borde para el modo oscuro */
+}
+
+/* Aumento del tamaño de los botones de ataque */
+.botones-ataque img {
+    width: 250px; /* Aumento del tamaño de los botones de ataque */
+}
+
+/* Aumento del tamaño del botón para cambiar el modo */
+#btn-modo {
+    margin-top: 20px;
+    padding: 10px 20px; /* Aumento del padding para hacer el botón más grande */
+    font-size: 18px; /* Aumento del tamaño de la fuente */
+}
+
+/* Estilos para el menú de selección de color de fondo */
+#color-fondo-menu {
+    margin-top: 20px;
+}
+
+#color-fondo-menu label {
+    margin-right: 10px;
+}
